@@ -2,7 +2,9 @@ body {
   font-family: "Montserrat", sans-serif;
   background: #e5e5e5;
 }
-
+p {
+  margin: 0;
+}
 /* main container */
 .main {
   display: flex;
@@ -14,14 +16,16 @@ body {
 /* main-content */
 .main-content {
   background: #ffffff;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 105px 90px;
+  /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
+  padding: 70px 90px;
 }
-
+.about-name {
+  margin-top: 0;
+}
 /* sidebar styles*/
 .sidebar {
-  background: #3d4411;
-  padding-top: 40px;
+  background: #ffffff;
+  padding-top: 0px;
   width: 370px;
 }
 .photo {
@@ -32,7 +36,7 @@ body {
 .sidebar-title,
 .tech-skills-title,
 .soft-skills-title {
-  color: #ffffff;
+  color: #000;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -43,21 +47,33 @@ body {
   margin-left: 40px;
   margin-bottom: 45px;
 }
+.contact-wrap {
+  display: flex;
+  flex-direction: column;
+  /* gap: 4px; */
+}
+.number-wrap {
+  display: flex;
+  flex-direction: column;
+  /* gap: 4px; */
+}
 .contact-type {
-  color: #ffffff;
+  color: #000;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   margin-right: 10px;
+  margin: 0;
 }
 .contact-link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #ffffff;
-  opacity: 0.7;
+  color: #000;
+  /* opacity: 0.7; */
+  text-decoration: none;
 }
 .contact-link2 {
   margin-left: 27px;
@@ -65,8 +81,8 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #ffffff;
-  opacity: 0.5;
+  color: #000;
+  /* opacity: 0.9; */
 }
 .tech-skills {
   margin-left: 40px;
@@ -74,7 +90,7 @@ body {
 }
 .tech-skills-list,
 .soft-skills-list {
-  color: #ffffff;
+  color: #000;
   padding: 0;
   margin-left: 20px;
 }
@@ -84,7 +100,7 @@ body {
 }
 .tech-skills-item,
 .soft-skills-item {
-  color: #ffffff;
+  color: #000;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -101,7 +117,7 @@ body {
 .about-position {
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 17px;
   color: #000000;
   margin-bottom: 20px;
@@ -119,7 +135,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #000000;
   text-align: justify;
   margin-top: 4px;
   /* width: 650px; */
@@ -155,7 +171,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #000000;
   margin-left: 10px;
 }
 .project-braket {
@@ -172,26 +188,26 @@ body {
 .work-position {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   color: #000000;
   margin-bottom: 10px;
 }
 .organization {
-  color: #fb6d3a;
+  color: #000000;
 }
 .years {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: #000000;
   margin-bottom: 10px;
 }
 .line {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: #000000;
 }
@@ -213,16 +229,17 @@ body {
 .university {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
-  color: #fb6d3a;
+  color: #000000;
   margin-bottom: 10px;
 }
 .management {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
