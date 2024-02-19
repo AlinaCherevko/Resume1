@@ -1,4 +1,8 @@
+html {
+  width: 1024px;
+}
 body {
+  width: 1024px;
   font-family: "Montserrat", sans-serif;
   /* background: #e5e5e5; */
 }
@@ -9,7 +13,7 @@ p {
 .main {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 1024px;
   margin: 0 auto;
 }
 
